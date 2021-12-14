@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:alpine
 
 WORKDIR $GOPATH/src/github.com/shiluanzzz/ginTest
 COPY . $GOPATH/src/github.com/shiluanzzz/ginTest
